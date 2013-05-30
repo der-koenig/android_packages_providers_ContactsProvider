@@ -1243,7 +1243,8 @@ public class ContactsDatabaseHelper extends SQLiteOpenHelper {
                 Voicemails.MIME_TYPE + " TEXT," +
                 Voicemails.SOURCE_DATA + " TEXT," +
                 Voicemails.SOURCE_PACKAGE + " TEXT," +
-                Voicemails.STATE + " INTEGER" +
+                Voicemails.STATE + " INTEGER," +
+                Calls.SUB_ID + " INTEGER" +
         ");");
 
         // Voicemail source status table.
